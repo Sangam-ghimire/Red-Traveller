@@ -1,0 +1,35 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+.Navbar {
+  margin-top: 2.5rem;
+  margin-left: 7rem;
+  margin-right: 10rem;
+  /* padding-top: 2.5rem;
+  padding-left: 7rem;
+  padding-right: 10rem; */
+  /* background-color: red; */
+}
+.NavComponents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 1.7rem; */
+}
+.list {
+  width: 74.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: max(1.6rem);
+  list-style: none;
+}
+a {
+  color: #ffa500;
+  padding: 0.3rem 2.2rem 0.3rem 2.2rem;
+}
+a.active {
+  background-color: #0336ff;
+  border-radius: 0.8rem;
+}
