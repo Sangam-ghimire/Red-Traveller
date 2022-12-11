@@ -1,12 +1,12 @@
 .home_MainContainer {
-  background-color: red;
+  background-color: #f7f7f6;
 }
 .home_BackgroundContainer {
-  margin-top: -8.5rem;
-  display: block;
-  background-image: url(../assets/images/HomeBackground.jpg);
+  margin-top: -9.7rem;
+  background-image: url("/public/images/HomeBackground.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 100%;
   height: 58.7rem;
   display: flex;
@@ -72,10 +72,11 @@
 .home_subContainerContent {
   margin-left: 6rem;
   margin-right: 6rem;
-  background-color: red;
+  margin-top: 10rem;
   gap: 5rem;
   display: grid;
   grid-template-columns: 0.28fr 0.72fr;
+  /* background-color: red; */
 }
 .green {
   background-color: green;
@@ -94,16 +95,131 @@
 }
 .first_Maingrid {
   /* max-height: 0rem; */
-  text-align: center;
-  display: flex;
+  /* text-align: center; */
+  /* display: grid;
   align-items: center;
   justify-content: center;
-  /* max-height: 0rem; */
+  column-gap: 43rem; */
+  max-height: 0rem;
 }
 .second_Maingrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
   row-gap: 5rem;
+  /* max-height: 0rem; */
+  /* text-align: center; */
+}
+.Wild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: red; */
+}
+.card_Button {
+  margin-top: 1.7rem;
+  width: 18.2rem;
+  height: 7.1rem;
+  background-color: #0336ff;
+  border-radius: 8px;
+  border-color: transparent;
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+/* second grid completed */
+.first_Maingrid {
+  background-color: transparent;
+  /* display:flex;
+  flex-direction: column; */
+}
+.long_gridFirst {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 5rem;
+}
+
+figcaption {
+  color: #000000;
+  text-align: left;
+  font-family: "Lato";
+  font-size: 1.63rem;
+  font-weight: 500;
+}
+figure > p {
+  font-family: "Lato";
+  font-size: 2.965rem;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 1.1rem;
+}
+
+.socialMedia {
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.socialbutton {
+  width: 15rem;
+  height: 7.1rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.socialbutton > span {
+  display: grid;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+.blue {
+  background-color: #4056ac;
+}
+.navy {
+  background-color: #60b7fe;
+}
+.red {
+  background-color: #fe2c3c;
+}
+.pink {
+  background-color: #e14d93;
+}
+.gearCard {
+  background-color: white;
   text-align: center;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.bold {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.9649rem;
+  line-height: 5rem;
+  color: #000000;
+}
+.light {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  text-align: center;
+  color: #0b0a0a;
+}
+.gearButton {
+  background-color: #0336ff;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  width: 18.2rem;
+  height: 7.1rem;
 }

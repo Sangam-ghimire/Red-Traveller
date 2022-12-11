@@ -1,0 +1,34 @@
+.total_subs {
+  width: 100%;
+  height: 32.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.5rem solid #c4c4c4;
+}
+.joinText > p {
+  font-family: "Lato";
+  max-width: 47.4rem;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: left;
+}
+.joinText > p > span {
+  color: #0336ff;
+}
+label > input {
+  width: 33rem;
+  height: 7.8rem;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  text-align: center;
+}
+.subscribe > button {
+  width: 20rem;
+  height: 7.8rem;
+  background-color: #0336ff;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  border: none;
+  margin: 1.9rem;
+}

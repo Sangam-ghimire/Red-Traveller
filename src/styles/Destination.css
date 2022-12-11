@@ -1,0 +1,37 @@
+.DestinationBackground {
+  margin-top: -9.7rem;
+  background-image: url("/public/images/DestinationbackgroundNav.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 42.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.DestinationBackground > p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  color: #e5e5e5;
+}
+
+.cardDestination {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 8rem;
+  row-gap: 3rem;
+}
+.cardDestinationwidth {
+  height: 66.2rem;
+}
+.main_Margin {
+  margin: 0 7.3rem 0 7.3rem;
+}

@@ -1,0 +1,79 @@
+.background_Contact {
+  margin-top: -9.7rem;
+  background-image: url("/public/images/ContactBackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 35.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.background_Contact > p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  color: #e5e5e5;
+}
+/* Form section */
+.form_Text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.4rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+.form_Flexone {
+  padding-top: 8.4rem;
+  /* background-color: red; */
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 5.7rem;
+}
+.form_Flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  /* background-color: green; */
+}
+input {
+  width: 41.5rem;
+  height: 5.6rem;
+  /* margin-bottom: 3.2rem; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  /* identical to box height */
+  text-decoration-line: underline;
+  color: #6e7191;
+}
+.marginbox {
+  margin-bottom: 3.2rem;
+}
+.messageBox {
+  width: 85.4rem;
+  height: 21.2rem;
+  text-align: center;
+}
+.Submit_Contact {
+  width: 12.4rem;
+  height: 3.3rem;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #0336ff;
+  border: none;
+  color: #ffffff;
+  margin: 1rem;
+}

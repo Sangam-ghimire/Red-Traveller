@@ -1,0 +1,74 @@
+/* making image responsive */
+.image {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.post_Title {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 3.1464rem;
+}
+.post_Intro {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 2.4rem;
+  max-width: 68.6rem;
+}
+.padding {
+  display: grid;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  gap: 1rem;
+}
+.space-between {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+span > text {
+  margin: 0.5rem;
+  font-family: Lato;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.dates {
+  font-family: "Lato";
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+.bg-white {
+  background-color: white;
+}
+.none {
+  display: none;
+}
+
+.buy {
+  background-image: url("/public/images/Buyforu.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+
+  width: auto;
+  height: 42.5rem;
+  /* margin: 5rem 0 4.1rem 0; */
+}
+.buy > p {
+  font-family: "Lato";
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
+.buy > P > span {
+  text-decoration: underline;
+  color: #ffa500;
+}

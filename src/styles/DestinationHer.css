@@ -1,0 +1,30 @@
+.dupsNavbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: red; */
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+.texnav {
+  border: 2px solid #c4c4c4;
+  width: 100%;
+  height: 8.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  /* identical to box height */
+
+  color: #000000;
+}
+.texnav:hover {
+  background-color: #0336ff;
+  color: #c4c4c4;
+}

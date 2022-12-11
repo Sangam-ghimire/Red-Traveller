@@ -1,0 +1,42 @@
+.about_Container {
+  max-width: 100%;
+  height: auto;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  background-color: white;
+}
+.card_Button {
+  margin-top: 1.7rem;
+  margin-bottom: 2.1rem;
+  max-width: 18.2rem;
+  max-height: 7.1rem;
+  background-color: #0336ff;
+  border-radius: 8px;
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+.figTitle {
+  text-align: center;
+  font-family: "Lato";
+  font-size: 2.965rem;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 1.1rem;
+}
+.figImage {
+  max-width: 100%;
+  height: auto;
+}
+.figcaption {
+  color: #000000;
+  /* background-color: transparent; */
+  text-align: left;
+  font-family: "Lato";
+  font-size: 1.63rem;
+  font-weight: 500;
+}

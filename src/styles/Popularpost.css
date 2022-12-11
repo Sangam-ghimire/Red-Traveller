@@ -1,0 +1,24 @@
+.card3 {
+  display: grid;
+  align-items: center;
+  text-align: left;
+  padding: 3.7rem;
+  width: 100%;
+  height: auto;
+  background-image: url("/public/images/minivan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card3 > p:first-of-type {
+  color: #ffffff;
+  font-family: "Lato";
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.card3 > p {
+  color: #ffffff;
+  font-family: "Lato";
+  font-size: 3.164rem;
+  font-weight: 700;
+}
